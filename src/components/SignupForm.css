@@ -1,13 +1,14 @@
 input[readonly] {
-    border: none;
-    font-style: italic;
-    color: #ccc;
-  }
-  button.small-grey {
-    font-size: 12px;
-    color: #666;
-    background-color: #f5f5f5;
-    border: 1px solid #ddd;
-    padding: 5px 10px;
-    margin-left: 10px;
-  }
+  border: none;
+  font-style: italic;
+  color: #ccc;
+}
+
+button.small-grey {
+  font-size: 12px;
+  color: #666;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  margin-left: 10px;
+}

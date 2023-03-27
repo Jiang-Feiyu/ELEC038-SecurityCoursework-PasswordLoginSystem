@@ -72,10 +72,10 @@ const SignupForm = () => {
         const lowerCaseChars = 'abcdefghijklmnopqrstuvwxyz';
         const digits = '0123456789';
       
-        // 随机生成密码长度在8到15之间
+        // randomly generate a key length between 8 to 15
         const passwordLength = Math.floor(Math.random() * 8) + 8;
       
-        // 添加至少一个特殊字符、一个大写字母、一个小写字母和一个数字
+        // Add at least a special char, a upper and lower char and some numbers
         let password = '';
         password += specialChars[Math.floor(Math.random() * specialChars.length)];
         password += upperCaseChars[Math.floor(Math.random() * upperCaseChars.length)];

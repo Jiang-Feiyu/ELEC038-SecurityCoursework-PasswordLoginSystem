@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './LoginForm.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const users = [
   {"username": "ELEC0138", "password": "Privacy and Security"},
@@ -11,6 +11,7 @@ const users = [
 function LoginForm() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
   const handleUsernameChange = (event) => {
     setUsername(event.target.value);
@@ -26,10 +27,10 @@ function LoginForm() {
 
     if (!user) {
       alert('user not found');
-    } else if (user.password != password) {
+    } else if (user.password !== password) {
       alert("Password is wrong");
     } else {
-      alert("Login successful");
+      navigate('/sucess');
     }
   };
 
