@@ -1,0 +1,36 @@
+.success-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .success-header {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .button-group {
+    display: flex;
+  }
+  
+  .logout-button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .content-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    text-align: center;
+  }

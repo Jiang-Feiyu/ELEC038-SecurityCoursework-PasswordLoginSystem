@@ -1,49 +1,80 @@
-.login-form {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
-    border-radius: 5px;
-    max-width: 400px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .login-form h2 {
-    margin-bottom: 1rem;
-  }
-  
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem;
-    text-align: left;
-  }
-  
-  label {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  input[type='text'],
-  input[type='password'] {
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-    margin-top: 0.5rem;
-  }
-  
-  button[type='submit'] {
-    background-color: #007bff;
-    color: #fff;
-    padding: 0.5rem 2rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    margin-top: 1rem;
-    cursor: pointer;
-  }
-  
-  button[type='submit']:hover {
-    background-color: #0069d9;
-  }
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 50px, 30px;
+}
+
+.signup-btn,
+.login-btn {
+  background-color: #555555;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  /* Updated margin value */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+  background-color: #333333;
+}
+
+.content-box {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 30px;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+label {
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: inherit;
+}
+
+input[type="text"], input[type="password"] {
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: inherit;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hint-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.hint-title {
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: inherit;
+  margin: 0;
+}
+
+.hint-content {
+  font-family: inherit;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+label {
+  font-family: inherit;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
