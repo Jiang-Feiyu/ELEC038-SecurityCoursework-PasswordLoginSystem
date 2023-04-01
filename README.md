@@ -1,8 +1,3 @@
-# ELEC0138 Security and Privacy
-- Group 1: Login System 
-- Student ID: 22216907 19013028 22038091
-- Abstract: This is a completely self-designed **Password Login System** on the front-end and back-end. We simulated the scenes of user registration and login in real web pages. We **encrypt** the user information on the back-end and adopt **hint** method to prevent the **clone** website.
-
 # Basic Function of Our Web Page
 1.  Initial Page: There are two buttons: `login ` button and `sign up` button. You may need to click the sign up button if you have never registered before.
 2.  Sign Up Page: This is the page for collecting your personal information and store the encrypted data into the local data base. You are asked to input your Email address, password and hint. The password should be at least 8 character and contains uppercase letters, lowercase letters, numbers from `0 `to `9` and special characters `!@#$%^&amp;*()`. 
