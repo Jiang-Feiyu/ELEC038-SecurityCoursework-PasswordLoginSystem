@@ -1,6 +1,6 @@
 Back-End API in Python
 
-This branch is about the developed back-end API for encryption and validation of password. using SHA256 and interfaced using flask, the API is implemented into the Platform front-end part using this following code snippet:
+This branch is about the developed back-end API for encryption and validation of password. The main file to run is the app.py. It is important to install the FLask CORS to run the API using 'pip install -r requirements.txt'. Using SHA256 and interfaced using flask, the API is implemented into the Platform front-end part using this following code snippet:
 
    const data = {
       plain_password: password,
