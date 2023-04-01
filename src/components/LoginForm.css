@@ -27,7 +27,13 @@
 .content-box {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 30px;
+  border: 3px solid black;
   text-align: center;
+}
+
+.border {
+  padding: 30px;
+  border: 3px solid black;
 }
 
 a {
@@ -41,7 +47,8 @@ label {
   font-weight: inherit;
 }
 
-input[type="text"], input[type="password"] {
+input[type="text"],
+input[type="password"] {
   font-family: inherit;
   font-size: 1.2rem;
   font-weight: inherit;
