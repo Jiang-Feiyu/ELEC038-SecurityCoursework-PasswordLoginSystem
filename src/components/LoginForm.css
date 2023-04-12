@@ -1,0 +1,94 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 50px, 30px;
+}
+
+.signup-btn,
+.login-btn {
+  background-color: #555555;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  /* Updated margin value */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn:disabled,
+.login-btn:disabled {
+  opacity: 0.75;
+  background-color: #555555 !important;
+  cursor: not-allowed;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+  background-color: #333333;
+}
+
+.content-box {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 30px;
+  border: 3px solid black;
+  text-align: center;
+}
+
+.border {
+  padding: 30px;
+  border: 3px solid black;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+label {
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: inherit;
+}
+
+input[type="text"],
+input[type="password"] {
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: inherit;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hint-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.hint-title {
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: inherit;
+  margin: 0;
+}
+
+.hint-content {
+  font-family: inherit;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+label {
+  font-family: inherit;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
